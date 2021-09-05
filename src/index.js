@@ -1,8 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import HolaMundo from './components/holamundo';
+import App from './routes/App';
+
 
 ReactDOM.render(
-    <HolaMundo/>,
+    <App/>,
     document.getElementById("app")
 )
+

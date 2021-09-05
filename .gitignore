@@ -59,16 +59,11 @@ typings/
 # dotenv environment variables file
 .env
 
-# IDE
-.idea/*
-*.iml
-*.sublime-*
-
-# OSX
-.DS_Store
-.vscode
-
-# Docs Custom
+    "presets": [
+        "@babel/preset-env",
+        "@babel/preset-react"
+    ]
+}om
 .cache/
 yarn-error.log
 
